@@ -9,6 +9,7 @@
   
   .about-us-cards {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
     width: 100%;
     max-width: 900px;
@@ -63,3 +64,8 @@
     color: #333;
   }
   
+  @media (max-width: 768px) {
+    .about-us-cards{
+      flex-wrap: wrap;
+    }
+  }

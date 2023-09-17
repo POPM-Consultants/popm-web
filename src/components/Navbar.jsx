@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { GithubIcon } from "../assets/icons/GithubIcon";
+// import { TailcastLogo } from "../assets/logos/TailcastLogo";
+// import { GithubIcon } from "../assets/icons/GithubIcon";
+import logo from "../assets/logos/logo.png";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
@@ -29,10 +30,11 @@ export const Navbar = () => {
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
-              </div>
-              <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+              <img
+              src={logo}
+              alt="123"
+              className="w-40 h-auto"
+              />
               </div>
             </div>
           </a>

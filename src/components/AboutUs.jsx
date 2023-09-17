@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css"; // Import your custom CSS file for styling
-import { color } from "framer-motion";
+import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (

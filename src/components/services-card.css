@@ -1,0 +1,73 @@
+/* ServiceCard.css */
+
+.services-section {
+  display: flex;
+  justify-content:center; /*Adjust as needed for spacing */
+  align-items: center;
+  flex-wrap: nowrap; /* Prevent cards from wrapping to the next row */
+  /* gap: 0px; */
+  /* margin: 50px; */
+}
+
+.service-card {
+  background-color: #303136; /* Background color matching the theme */
+  color: #fff; /* Text color for better visibility */
+  border: 1px solid #1e1e1e; /* Border color matching the theme */
+  border-radius: 10px; /* Slightly rounded corners */
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  margin: 10px;
+  max-width: 300px;
+  min-width: 200px;
+  min-height: 320px; /* Increase the card height */
+}
+
+.service-logo {
+  max-width: 100px; /* Adjust logo size */
+  height: auto;
+  margin-bottom: 20px; /* Add space between logo and title */
+}
+
+.service-title {
+  font-size: 1.5rem;
+  color: #007bff; /* Blue title color matching the theme */
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #ccc; /* Slightly lighter text color for description */
+  padding-top: 25px;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.custom-text-white {
+  color: #fff;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.custom-text-blue {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.custom-text-gray {
+  color: #ccc;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+/* Adjust the card layout on smaller screens */
+@media (max-width: 768px) {
+  .services-section {
+    /* justify-content: center; Align cards to the left on smaller screens */
+    flex-wrap: wrap;
+  }
+}
