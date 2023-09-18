@@ -44,15 +44,7 @@ export const FeaturesDiagonal = () => {
             <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Social Media Strategy Development</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Platform Management</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Advertising Campaigns</span>
+                  <span>Social Media Blueprint</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
@@ -60,7 +52,11 @@ export const FeaturesDiagonal = () => {
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Future-Proofing Projects</span>
+                  <span>Advertising Campaigns</span>
+                </li>
+                <li className="mb-4 flex">
+                  <CheckArrowIcon />
+                  <span>Platform Management</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />

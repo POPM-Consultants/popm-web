@@ -2,7 +2,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import { CloseIcon } from "../assets/icons/CloseIcon";
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
+// import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import Logo from "../assets/logos/logo.png";
 
 export const InvitationModal = ({ setIsOpen }) => (
   <AnimatePresence>
@@ -47,11 +48,11 @@ export const InvitationModal = ({ setIsOpen }) => (
             <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-24 sm:pt-0">
               <div className="flex inline lg:hidden justify-start items-center grow basis-0 mb-8 pr-6">
                 <div className="text-white mr-2 text-8xl">
-                  <TailcastLogo />
+                  <img src={Logo} alt="123" className="w-40 h-auto"/>
                 </div>
-                <div className="text-white font-['Inter'] font-bold text-3xl">
+                {/* <div className="text-white font-['Inter'] font-bold text-3xl">
                   Tailcast
-                </div>
+                </div> */}
               </div>
 
               <h3 className="mb-7 text-2xl text-white font-bold leading-snug text-center">

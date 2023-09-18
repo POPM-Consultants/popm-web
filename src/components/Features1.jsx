@@ -25,12 +25,14 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">Our Services</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                We provide a wide range of creative solutions
+                Where creativity meets strategy
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Discover a new level of data analysis with our innovative and
-                user-friendly platform. Transform your business needs with
-                actionable insights.
+                Our range of services is designed to amplify your brand's
+                presence and impact in the digital world. From captivating web
+                designs to dynamic ad campaigns, we offer a comprehensive suite
+                of solutions tailored to your needs.<br/>
+                Explore our services below and discover the possibilities!!
               </p>
               {/* <ul className="mb-6 text-white">
                 <li className="mb-4 flex">

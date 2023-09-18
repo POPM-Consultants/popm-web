@@ -2,27 +2,26 @@ import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 // import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
+import { GithubIcon } from "../assets/icons/GithubIcon";
 import logo from "../assets/logos/logo.png";
 
 const footerData = [
   {
     title: "Products",
-    items: ["Services", "About Us", "News and Stories", "Roadmap"],
+    items: ["Services", "About Us", "Roadmap"],
   },
   {
     title: "Important Links",
     items: [
       "Organization Team",
       "Our Journeys",
-      "Pricing Plans",
-      "Roadmap",
       "Terms & Conditions",
       "Privacy Policy",
     ],
   },
   {
     title: "Company",
-    items: ["About Us", "Jobs", "Press", "Contact Us"],
+    items: ["About Us", "Contact Us"],
   },
 ];
 
@@ -46,24 +45,21 @@ export const Footer = () => {
                 </div> */}
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Dashboard images were made using free Dark Admin dashboard that
-                you can find
                 <a
                   href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
                   target="_blank"
                   className="text-gray-100 ml-1.5 "
                   aria-label="DarkAdmin"
                 >
-                  here.
                 </a>
               </p>
               <div className="w-36 mx-auto lg:mx-0">
-                <a
+                {/* <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="#"
                 >
                   <FacebookIcon />
-                </a>
+                </a> */}
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="https://github.com/POPM-Consultants"
@@ -72,9 +68,15 @@ export const Footer = () => {
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://github.com/POPM-Consultants"
                 >
                   <InstagramIcon />
+                </a>
+                <a
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+                  href="https://github.com/POPM-Consultants"
+                >
+                  <GithubIcon />
                 </a>
               </div>
             </div>
