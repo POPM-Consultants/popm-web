@@ -1,13 +1,12 @@
-# Tailcast
-
-Dark themed website template built on AstroJS, designed for technological startup business.
+# POPM
+POPM is a social media marketing agency that focuses on helping businesses establish a strong online presence and succeed in the world of e-commerce. Our agency appears to have a comprehensive approach, involving market analysis, tool delivery, and brand promotion. 
 
 ## Tech stack:
 
 Astro, React, Tailwind, Framer Motion
 
 ## Live link
-[https://tailcast.vercel.app/](https://tailcast.vercel.app/)
+[https://popmconsultants.netlify.app/](https://popmconsultants.netlify.app/)
 
 ##  Project Structure
 
