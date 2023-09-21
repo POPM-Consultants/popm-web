@@ -35,9 +35,8 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="about-us-content">
-        <h1 className="about-us-title"  style={{ color: 'white' }} >About Us</h1>
-        <p className="about-us-description">
-        </p>
+        <h1 className="about-us-title" style={{ color: 'white' }}>About Us</h1>
+        <p className="about-us-description"></p>
       </div>
     </div>
   );

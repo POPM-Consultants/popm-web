@@ -7,10 +7,10 @@ import logo from "../assets/logos/logo.png";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
-  { label: "Features", href: "#features", ariaLabel: "Features" },
+ // { label: "Features", href: "#features", ariaLabel: "Features" },
  // { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
-  { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
+  //{ label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
+  { label: "Services", href: "#Services", ariaLabel: "Services" },
   { label: "AboutUs", href: "#About-us", ariaLabel: "AboutUs" },
 ];
 

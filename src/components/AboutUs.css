@@ -17,7 +17,7 @@
   }
   
   .about-us-card {
-    background-color: #ffffff;
+    background-color: #303136; /* Background color matching the theme */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 40px;
@@ -25,6 +25,7 @@
     transition: transform 0.3s;
     width: calc(33.33% - 20px);
     margin: 0 10px;
+    border: 1px solid #1e1e1e;
   }
   
   .about-us-card:hover {
@@ -41,11 +42,12 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #007bff; /* Blue title color matching the theme */
   }
   
   .card-description {
     font-size: 1rem;
-    color: #333;
+    color: #ccc; /* Slightly lighter text color for description */
   }
   
   .about-us-content {
@@ -69,3 +71,35 @@
       flex-wrap: wrap;
     }
   }
+
+  
+/* Default styles for larger screens */
+
+.about-us-cards {
+  /* Your existing card container styles */
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us-card {
+  /* Your existing card styles */
+  width: 30%; /* Adjust the width based on your design */
+}
+
+/* Media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .about-us-cards {
+    /* Modify card container styles for smaller screens */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us-card {
+    /* Modify card styles for smaller screens */
+    width: 100%;
+    margin-bottom: 20px; /* Add some spacing between cards */
+    margin-left: 0px; /* Add some spacing between cards */
+  }
+  
+  /* Add any other responsive styles as needed */
+}
