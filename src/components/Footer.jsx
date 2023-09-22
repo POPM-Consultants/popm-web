@@ -3,12 +3,14 @@ import { InstagramIcon } from "../assets/icons/InstagramIcon";
 // import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
 import { GithubIcon } from "../assets/icons/GithubIcon";
+import { LinkedInIcon } from "../assets/icons/LinkedInIcon";
 import logo from "../assets/logos/logo.png";
 
 const footerData = [
   {
     title: "Products",
     items: ["Services", "About Us", "Roadmap"],
+    links: ["#Services", "#featuresDiagonal", "#Roadmap"]
   },
   {
     title: "Important Links",
@@ -22,6 +24,7 @@ const footerData = [
   {
     title: "Company",
     items: ["About Us", "Contact Us"],
+    links: ["#About-us","#"]
   },
 ];
 
@@ -68,7 +71,7 @@ export const Footer = () => {
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="https://github.com/POPM-Consultants"
+                  href="https://www.instagram.com/popmconsultants/"
                 >
                   <InstagramIcon />
                 </a>
@@ -77,6 +80,12 @@ export const Footer = () => {
                   href="https://github.com/POPM-Consultants"
                 >
                   <GithubIcon />
+                </a>
+                <a
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+                  href="https://www.linkedin.com/in/popm-consultants-26822b291/"
+                >
+                  <LinkedInIcon />
                 </a>
               </div>
             </div>
@@ -88,7 +97,7 @@ export const Footer = () => {
                     <li key={i} className="mb-4">
                       <a
                         className="text-gray-400 hover:text-gray-300"
-                        href="#"
+                        href={footerData[0].links[i]}
                         aria-label=""
                       >
                         {item}
@@ -122,7 +131,7 @@ export const Footer = () => {
                     <li key={i} className="mb-4">
                       <a
                         className="text-gray-400 hover:text-gray-300"
-                        href="#"
+                        href={footerData[2].links[i]}
                         aria-label=""
                       >
                         {item}

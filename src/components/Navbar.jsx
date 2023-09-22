@@ -10,8 +10,10 @@ const navbarLinks = [
  // { label: "Features", href: "#features", ariaLabel: "Features" },
  // { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
   //{ label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
-  { label: "Services", href: "#Services", ariaLabel: "Services" },
-  { label: "AboutUs", href: "#About-us", ariaLabel: "AboutUs" },
+  { label: "Our Services", href: "#Services", ariaLabel: "Services" },
+  { label : "About Us", href:"#featuresDiagonal", ariaLabel:"About Us"},
+  { label: "Company Overview", href: "#About-us", ariaLabel: "Company Overview" },
+
 ];
 
 export const Navbar = () => {

@@ -7,35 +7,26 @@ const AboutUs = () => {
     <div className="about-us-container" id="About-us">
       <div className="about-us-cards">
         <div className="about-us-card">
-          <div className="card-icon">
-            <i className="fas fa-users"></i>
-          </div>
-          <h3 className="card-title">Our Team</h3>
+          <h3 className="card-title">Our Ninjas</h3>
           <p className="card-description">
-            Meet our dedicated and talented team of professionals.
+          Meet our dedicated engineers with special chakras.
           </p>
         </div>
         <div className="about-us-card">
-          <div className="card-icon">
-            <i className="fas fa-chart-line"></i>
-          </div>
-          <h3 className="card-title">Our Achievements</h3>
+          <h3 className="card-title">Our TAQAT</h3>
           <p className="card-description">
-            Discover our milestones and achievements over the years.
+          Business consulting, Product featuring, Ecom, ad campaigns
           </p>
         </div>
         <div className="about-us-card">
-          <div className="card-icon">
-            <i className="fas fa-history"></i>
-          </div>
-          <h3 className="card-title">Our History</h3>
+          <h3 className="card-title">Our Deliverables</h3>
           <p className="card-description">
-            Learn about our journey from inception to where we are today.
+          Ecom analysis, Ecom Website, Ecom Shoot, Ecom ad campaigns
           </p>
         </div>
       </div>
       <div className="about-us-content">
-        <h1 className="about-us-title" style={{ color: 'white' }}>About Us</h1>
+        <h1 className="about-us-title" style={{ color: 'white' }}>Company Overview</h1>
         <p className="about-us-description"></p>
       </div>
     </div>
