@@ -9,8 +9,8 @@ import logo from "../assets/logos/logo.png";
 const footerData = [
   {
     title: "Products",
-    items: ["Services", "About Us", "Roadmap"],
-    links: ["#Services", "#featuresDiagonal", "#Roadmap"]
+    items: ["Services", "Roadmap"],
+    links: ["#Services", "#Roadmap"]
   },
   {
     title: "Important Links",
@@ -24,7 +24,7 @@ const footerData = [
   {
     title: "Company",
     items: ["About Us", "Contact Us"],
-    links: ["#About-us","#"]
+    links: ["#featuresDiagonal","#"]
   },
 ];
 
@@ -65,25 +65,29 @@ export const Footer = () => {
                 </a> */}
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="https://github.com/POPM-Consultants"
+                  href="https://twitter.com/PopMConsultants"
+                  target="blank"
                 >
                   <TwitterIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="https://www.instagram.com/popmconsultants/"
+                  target="blank"
                 >
                   <InstagramIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="https://github.com/POPM-Consultants"
+                  target="blank"
                 >
                   <GithubIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="https://www.linkedin.com/in/popm-consultants-26822b291/"
+                  target="blank"
                 >
                   <LinkedInIcon />
                 </a>
