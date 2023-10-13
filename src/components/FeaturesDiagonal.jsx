@@ -4,6 +4,8 @@ import { useState } from "react";
 import { InvitationModal } from "./InvitationModal";
 import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
+import OurService from "../assets/images/Services.png";
+
 
 export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -72,7 +74,7 @@ export const FeaturesDiagonal = () => {
           </div>
           <div className="w-4/5 lg:w-1/2 lg:pl-16 flex justify-center mx-auto pt-16 lg:pt-0">
             <img
-              src={featuresdiagonal}
+              src={OurService}
               alt="f1"
               className="rounded-xl  custom-border-gray"
             />
