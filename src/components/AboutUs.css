@@ -20,10 +20,10 @@
     background-color: #303136; /* Background color matching the theme */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
     transition: transform 0.3s;
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 15px);
     margin: 0 10px;
     border: 1px solid #1e1e1e;
   }
@@ -39,6 +39,7 @@
   }
   
   .card-title {
+    text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
