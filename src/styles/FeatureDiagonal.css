@@ -1,0 +1,9 @@
+@keyframes moveImage {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); } 
+    100% { transform: translateY(0); }
+}
+.services-img{
+    filter: drop-shadow(2px 2px 2px black);
+    animation: moveImage 1s linear infinite;
+}
