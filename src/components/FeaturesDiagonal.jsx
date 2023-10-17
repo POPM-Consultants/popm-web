@@ -4,7 +4,7 @@ import { useState } from "react";
 import { InvitationModal } from "./InvitationModal";
 import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
-import OurService from "../assets/images/OurServices.png";
+import OurService from "../assets/images/Our_Services.png";
 import "../styles/FeatureDiagonal.css";
 
 
